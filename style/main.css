@@ -1,3 +1,150 @@
-h1{
-    color: yellow;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+   margin: 0;
+}
+
+.discription{
+    padding-top:30px;
+    padding-bottom: 36px;
+}
+
+.subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    margin: 0 auto;
+    width: 363px;
+    height: 19px;
+}
+
+hr{
+    border: none; /* Убираем границу для браузера Firefox */
+    color: red; /* Цвет линии для остальных браузеров */
+    background-color: red; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+    width: 64px;
+    margin: 0 auto;
+}
+
+.maintitle{
+    padding-top: 100px;
+    padding-bottom: 25px;
+    
+   
+}
+.name{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    
+    width: 409px;
+    height: 38px;
+    margin: 0 auto;
+   
+    /* background-color: grey; */
+}
+
+main{
+     padding-top:31px;
+    padding-bottom: 84px;
+       
+}
+
+.card{
+    width: 350px;
+    height: 225px;
+    display: inline-block;
+   
+}
+
+.text{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.one{
+    font-size: 0px;
+    width:1114px;
+    height: 225px;
+    margin: 0 auto;
+}
+
+.card-first {
+    margin-right: 32px;
+}
+
+.card-thirst{
+    margin-left: 32px;
+}
+
+.circle {
+    width: 69px;
+    height: 69px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    background:white;
+    margin: 0 auto;
+  }
+
+.image-circle{
+    padding:20px 24px 20px 24px; 
+}
+
+.image-keyboard{
+padding: 22px 16px 22px 17px;
+}
+
+.image-lightning{
+    padding: 19px 24px 18px 25px;
+}
+.title-circle{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    width:189px;
+    height: 29px;
+    font-size: 20px;
+    padding-left: 80px;
+
+}
+
+.title-keyboard{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    width:189px;
+    height: 29px;
+    font-size: 20px;
+    padding-left: 80px;
+
+}
+
+.title-lightning{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    width:189px;
+    height: 29px;
+    font-size: 20px;
+    padding-left: 80px;
+
+}
+
+p{
+    text-align: center;
 }
