@@ -30,10 +30,10 @@ header{
 }
 
 hr{
-    border: none; /* Убираем границу для браузера Firefox */
-    color: red; /* Цвет линии для остальных браузеров */
-    background-color: red; /* Цвет линии для браузера Firefox и Opera */
-    height: 2px; /* Толщина линии */
+    border: none; 
+    color: red; 
+    background-color: red;
+    height: 2px; 
     width: 64px;
     margin: 0 0 0 668px;
 }
