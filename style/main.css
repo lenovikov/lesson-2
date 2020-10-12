@@ -30,10 +30,10 @@ header{
 }
 
 hr{
-    border: none; 
-    color: red; 
-    background-color: red;
-    height: 2px; 
+    border: none; /* Убираем границу для браузера Firefox */
+    color: red; /* Цвет линии для остальных браузеров */
+    background-color: red; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
     width: 64px;
     margin: 0 0 0 668px;
 }
@@ -78,11 +78,11 @@ main{
     height: 60px;
 }
 
-.card-first {
+.card-circle {
     margin-right: 32px;
 }
 
-.card-thirst{
+.card-lightning {
     margin-left: 32px;
 }
 
